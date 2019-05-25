@@ -9,3 +9,5 @@ from . import example_module
 
 Y = example_module.increment(example_module.X)
 TEST = pd.DataFrame(np.ones(10))
+
+SYNCTEST = pd.DataFrame(np.zeros(100))
