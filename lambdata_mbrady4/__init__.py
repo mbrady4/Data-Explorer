@@ -1,13 +1,6 @@
 #!/usr/bin/env python 
 """
-lambdata - A collection of Data Science helper functions
+feature_wrangler - A collection of helper functions to clean and extract features from datasets
 """
 
-import pandas as pd
-import numpy as np 
-from . import example_module
-
-Y = example_module.increment(example_module.X)
-TEST = pd.DataFrame(np.ones(10))
-
-SYNCTEST = pd.DataFrame(np.zeros(100))
+from . import feature_explorer 
