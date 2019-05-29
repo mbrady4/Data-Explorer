@@ -16,9 +16,12 @@ The following functions are available:
 
 ## Implementation: 
 The following code block returns a useful summary that can inform further data exploration, cleaning, and engineering: 
-```import pandas as pd
+```python
+import pandas as pd
 # Assumes the data-explorer package has already been installed
 from lambdata_mbrady4 import feature_explorer
 king = pd.read_csv('https://raw.githubusercontent.com/ryanleeallred/datasets/master/kc_house_data.csv')
-feature_explorer.data_dict(king, king['price'])```
-![Data_Dict Output](https://thumbs.dreamstime.com/z/tv-test-image-card-rainbow-multi-color-bars-geometric-signals-retro-hardware-s-minimal-pop-art-print-suitable-89603635.jpg)
+feature_explorer.data_dict(king, king['price'])
+```
+
+![Data_Dict Output](https://raw.githubusercontent.com/mbrady4/lambdata/master/Test/Demo_Example.png)
