@@ -13,13 +13,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="data-explorer",
-    version="0.0.2",
+    version="0.0.3",
     author="Michael W. Brady",
-    description="A collection of functions to accelerate exploration of a
-            Dataset",
+    description="A collection of functions to accelerate exploration of a Dataset",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="https://github.com/mbrady4/lambdata",
+    url="https://github.com/mbrady4/Data-Explorer",
     packages=setuptools.find_packages(),
     python_requires=">=3",
     install_requires=REQUIRED,
