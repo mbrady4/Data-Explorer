@@ -1,4 +1,4 @@
-""" lambdata - a collection of Data Science helper functions
+""" Data Explorer - A collection of functions to accelerate exploration of a Dataset
 """
 
 import setuptools
@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="data-explorer",
-    version="0.0.3",
+    version="0.0.4",
     author="Michael W. Brady",
     description="A collection of functions to accelerate exploration of a Dataset",
     long_description=LONG_DESCRIPTION,
