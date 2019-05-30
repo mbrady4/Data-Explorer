@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-class data:
+class explorer:
 
     def __init__(self, df, target):
         '''Create an instance of the data class

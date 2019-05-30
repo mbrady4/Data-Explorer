@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-from explorer import data
+from explorer import explorer
 
 import unittest
 
@@ -17,7 +17,7 @@ class ExplorerTest(unittest.TestCase):
                      'b': [6, 4, 6, 7]
                      })
         target = pd.Series([0,1,1,0])
-        test = data(df, target)
+        test = explorer(df, target)
         self.assertEqual(test.df.columns[0], df.columns[0])
         self.assertEqual(test.df.columns[-1], df.columns[-1])
         self.assertEqual(test.target[0], target[0])
@@ -29,7 +29,7 @@ class ExplorerTest(unittest.TestCase):
                      'b': [6, 4, 6, 7]
                      })
         target = pd.Series([0,1,1,0])
-        test = data(df, target)
+        test = explorer(df, target)
         dict = test.data_dict()
         self.assertEqual(len(dict.columns), 10)
 
