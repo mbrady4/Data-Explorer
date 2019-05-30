@@ -24,7 +24,7 @@ import pandas as pd
 king = pd.read_csv('https://raw.githubusercontent.com/ryanleeallred/datasets/master/kc_house_data.csv')
 
 # Assumes the data_explorer package has already been installed
-from data_explorer.explorer import explorer
+from Data_Explorer.explorer import explorer
 
 # Initialize an instance of the explorer class 
 ex = explorer(king, king['price'])
