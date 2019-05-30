@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="data-explorer",
-    version="0.0.5",
+    version="0.0.6",
     author="Michael W. Brady",
     description="A collection of functions to accelerate exploration of a Dataset",
     long_description=LONG_DESCRIPTION,
