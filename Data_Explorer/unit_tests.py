@@ -9,7 +9,7 @@ import unittest
 
 
 class ExplorerTest(unittest.TestCase):
-    
+
     def test_init(self):
         ''' Test Initialization Class'''
         # Create a frame with cardinality of 3 and 4
