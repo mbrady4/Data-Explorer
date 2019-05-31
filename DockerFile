@@ -1,0 +1,11 @@
+FROM debian
+
+# Comments are like this 
+ENV PYTHONUNBUFFERED=1 # So logging works w/Docker
+
+# You can RUN things, mostly to install dependencies
+# -y says 'yes' automatically to command line prompts if we want to install something
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get install python3-pip python-pandas -y && \
+    pip3 install -i https://test.pypi.org/simple/ data-explorer && \ 
+    python3 -c "import data-explorer"
